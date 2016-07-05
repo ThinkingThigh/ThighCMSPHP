@@ -1,0 +1,2 @@
+# ThighCMSPHP
+ThighCMS Thinkphp Edition
