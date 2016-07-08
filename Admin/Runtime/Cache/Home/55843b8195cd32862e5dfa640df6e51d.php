@@ -49,7 +49,7 @@
 
 <div class="am-cf admin-main">
   <!-- sidebar start -->
-  <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+   <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
     <div class="am-offcanvas-bar admin-offcanvas-bar">
       <ul class="am-list admin-sidebar-list">
         <li><a href="admin-index.html"><span class="am-icon-home"></span> 首页</a></li>
@@ -71,7 +71,7 @@
       <div class="am-panel am-panel-default admin-sidebar-panel">
         <div class="am-panel-bd">
           <p><span class="am-icon-bookmark"></span> 公告</p>
-          <p>时光静好，与君语；细水流年，与君同。—— Amaze UI</p>
+          <p>时光静好，与君语；细水流年，与君同。</p>
         </div>
       </div>
 
@@ -329,10 +329,10 @@
       </div>
     </div>
 
-    <footer class="admin-content-footer">
-      <hr>
-      <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
-    </footer>
+ <footer>
+  <hr>
+  <p class="am-padding-left">Copyright © 2016 ThighCMS.</p>
+</footer>
   </div>
   <!-- content end -->
 
@@ -347,9 +347,9 @@
 <![endif]-->
 
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script src="assets/js/jquery.min.js"></script>
+<script src="/Public/assets/js/jquery.min.js"></script>
 <!--<![endif]-->
-<script src="assets/js/amazeui.min.js"></script>
-<script src="assets/js/app.js"></script>
+<script src="/Public/assets/js/amazeui.min.js"></script>
+<script src="/Public/assets/js/app.js"></script>
 </body>
 </html>

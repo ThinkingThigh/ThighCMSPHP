@@ -49,7 +49,7 @@
 
 <div class="am-cf admin-main">
   <!-- sidebar start -->
-  <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+   <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
     <div class="am-offcanvas-bar admin-offcanvas-bar">
       <ul class="am-list admin-sidebar-list">
         <li><a href="admin-index.html"><span class="am-icon-home"></span> 首页</a></li>
@@ -71,7 +71,7 @@
       <div class="am-panel am-panel-default admin-sidebar-panel">
         <div class="am-panel-bd">
           <p><span class="am-icon-bookmark"></span> 公告</p>
-          <p>时光静好，与君语；细水流年，与君同。—— Amaze UI</p>
+          <p>时光静好，与君语；细水流年，与君同。</p>
         </div>
       </div>
 
