@@ -61,7 +61,7 @@
                 <ul class="nav pull-right">
                     
                 </ul>
-                <a class="brand" href="index.html"><span class="first">Your</span> <span class="second">Company</span></a>
+                <a class="brand" href="index.html"><span class="first">Thigh</span> <span class="second">CMS</span></a>
         </div>
     </div>
     
@@ -75,12 +75,12 @@
         <div class="block">
             <p class="block-heading">Sign In</p>
             <div class="block-body">
-                <form>
+                <form id="form1" action="/admin.php/Home/Login/login" method="post">
                     <label>Username</label>
-                    <input type="text" class="span12">
+                    <input name="AdminAccount" type="text" class="span12">
                     <label>Password</label>
-                    <input type="password" class="span12">
-                    <a href="index.html" class="btn btn-primary pull-right">Sign In</a>
+                    <input name="AdminPassword" type="password" class="span12">
+                    <a href="#" onclick="form1.submit()" class="btn btn-primary pull-right">Sign In</a>
                     <label class="remember-me"><input type="checkbox"> Remember me</label>
                     <div class="clearfix"></div>
                 </form>
