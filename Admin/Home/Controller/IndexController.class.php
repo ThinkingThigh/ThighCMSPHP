@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class IndexController extends CommonController {
     public function index(){
         //$this->display();
         echo "后台首页";
