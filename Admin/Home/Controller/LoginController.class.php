@@ -10,13 +10,12 @@ class LoginController extends Controller {
 		$AdminAccount=I('post.AdminAccount');
 		$AdminPassword=I('post.AdminPassword');
 		$admindata=$admin->where("AdminAccount='$AdminAccount' and AdminPassword='$AdminPassword'")->find();
-		session("AdminAccount",$admindata['AdminAccount']);
+		session("AdminAccount",$admindata['adminaccount']);
 		if(!$admindata){
 			$this->error("帐号密码错误！");
 			}
 		else{
-			var_dump($admindata['AdminAccount']);
-			//$this->success("登录成功！",'../');
+			$this->success("登录成功！",'../');
 			}
     }
     public function logout(){
