@@ -13,7 +13,10 @@
     <link rel="stylesheet" type="text/css" href="/Public/Admin/stylesheets/theme.css">
     <link rel="stylesheet" href="/Public/Admin/lib/font-awesome/css/font-awesome.css">
 
-    <script src="/Public/Admin/lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="/Public/Admin/lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+
+    <script src="/Public/Admin/lib/bootstrapvalidator/js/bootstrapValidator.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/lib/bootstrapvalidator/css/bootstrapValidator.min.css">
 
     <!-- Demo page code -->
 
@@ -86,9 +89,9 @@
         <div class="sidebar-nav">
         <a href="#dashboard-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>控制台</a>
         <ul id="dashboard-menu" class="nav nav-list collapse in">
-            <li><a href="index.html">首页</a></li>
-            <li ><a href="NewsManage">文章管理</a></li>
-            <li ><a href="NewsAdd">文章添加</a></li>
+            <li><a href="/admin.php/Home/">首页</a></li>
+            <li ><a href="/admin.php/Home/NewsManage">文章管理</a></li>
+            <li ><a href="/admin.php/Home/NewsAdd">文章添加</a></li>
             <!--
             <li ><a href="media.html">Media</a></li>
             <li ><a href="calendar.html">Calendar</a></li>
@@ -123,7 +126,7 @@
         -->
     </div>
 
-    <form id="tab" method="post" action="/admin.php/Home/NewsAdd/Add">  
+    <form id="tab" name="form1" method="post" action="/admin.php/Home/NewsAdd/Add">  
     <div class="content">
         
         <div class="header">
@@ -140,7 +143,7 @@
             <div class="row-fluid">
                   
 <div class="btn-toolbar">
-  <input type="submit" value="提交" class="btn btn-primary">
+  
     <!--<a href="#myModal" data-toggle="modal" class="btn">Delete</a>-->
   <div class="btn-group">
   </div>
@@ -187,13 +190,12 @@
     </select>
     <label>排序</label>
         <input type="text" name="Istop" class="input-xxlarge">
-    <label>封面图</label>
-        <input type="file" name="PicUrl" id="pic">
-   
       </div>
   </div>
 
 </div>
+
+<input id="btnSubmit" type="submit" value="提交" class="btn btn-primary">
 
 <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-header">
