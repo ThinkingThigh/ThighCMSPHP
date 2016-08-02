@@ -189,7 +189,7 @@
           <option value="2">二级分类2</option>
     </select>
     <label>排序</label>
-        <input type="text" name="Istop" class="input-xxlarge">
+        <input type="text" name="Istop" class="input-xxlarge" >
       </div>
   </div>
 
