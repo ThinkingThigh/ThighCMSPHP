@@ -1,0 +1,30 @@
+[ 2016-08-05T09:10:41+08:00 ] 172.168.2.54 /index.php/admin/Article/edit/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-05T09:10:48+08:00 ] 172.168.2.54 /index.php/admin/Article/edit/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-05T09:29:23+08:00 ] 172.168.2.54 /index.php/admin/Article/edit/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-05T13:34:38+08:00 ] 172.168.2.54 /index.php/admin/Article/edit/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-05T13:34:48+08:00 ] 172.168.2.54 /index.php/admin/Article/edit/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Admin
+

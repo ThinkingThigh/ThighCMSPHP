@@ -23,7 +23,7 @@ class NewsAddController extends CommonController {
 			$news->PvCount = 1;
 			$news->CreateAdmin=session("AdminAccount");
 			if($news->add()){
-				$this->success("文章asd添加成功！",'../NewsManage');
+				$this->success("文章添加成功！",'../NewsManage');
 			}else{
 				$this->error('文章添加失败，返回上级页面');
 			}

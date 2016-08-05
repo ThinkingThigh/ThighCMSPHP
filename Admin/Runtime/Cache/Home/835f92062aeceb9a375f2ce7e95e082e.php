@@ -152,85 +152,26 @@
     <table class="table">
       <thead>
         <tr>
-          <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
-          <th style="width: 26px;"></th>
+          <th>ID</th>
+          <th>标题</th>
+          <th>修改</th>
+          <th>删除</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>1</td>
-          <td>Mark</td>
-          <td>Tompson</td>
-          <td>the_mark7</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Ashley</td>
-          <td>Jacobs</td>
-          <td>ash11927</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Audrey</td>
-          <td>Ann</td>
-          <td>audann84</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>John</td>
-          <td>Robinson</td>
-          <td>jr5527</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Aaron</td>
-          <td>Butler</td>
-          <td>aaron_butler</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>Chris</td>
-          <td>Albert</td>
-          <td>cab79</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
+      <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+          <td><?php echo ($vo["id"]); ?></td>
+          <td><a href="/index.php/home/index/body/id/<?php echo ($vo["id"]); ?>" target="_blank"><?php echo ($vo["newstitle"]); ?></a></td>
+          <td><a href="/index.php/admin/Article/edit/id/<?php echo ($vo["id"]); ?>"><i class="icon-pencil"></i></a></td>
+          <td><a href="/index.php/admin/Article/del/id/<?php echo ($vo["id"]); ?>" role="button" data-toggle="modal"><i class="icon-remove"></td>
+        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
       </tbody>
     </table>
 </div>
 <div class="pagination">
+  
     <ul>
-        <li><a href="#">Prev</a></li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">Next</a></li>
+    <?php echo ($page); ?>
     </ul>
 </div>
 

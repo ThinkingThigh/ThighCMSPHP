@@ -448,3 +448,9 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载模块:Assets
 
+[ 2016-08-02T16:56:44+08:00 ] 172.168.2.54 /admin.php/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
