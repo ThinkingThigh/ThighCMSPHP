@@ -142,9 +142,7 @@
             <div class="row-fluid">
                     
 <div class="btn-toolbar">
-    <button class="btn btn-primary"><i class="icon-plus"></i> New User</button>
-    <button class="btn">Import</button>
-    <button class="btn">Export</button>
+    <a href="/admin.php/Home/NewsAdd" class="btn btn-primary"><i class="icon-plus"></i> 添加文章</a>
   <div class="btn-group">
   </div>
 </div>
@@ -162,8 +160,8 @@
       <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
           <td><?php echo ($vo["id"]); ?></td>
           <td><a href="/index.php/home/index/body/id/<?php echo ($vo["id"]); ?>" target="_blank"><?php echo ($vo["newstitle"]); ?></a></td>
-          <td><a href="/index.php/admin/Article/edit/id/<?php echo ($vo["id"]); ?>"><i class="icon-pencil"></i></a></td>
-          <td><a href="/index.php/admin/Article/del/id/<?php echo ($vo["id"]); ?>" role="button" data-toggle="modal"><i class="icon-remove"></td>
+          <td><a href="/admin.php/Home/NewsEdit/id/<?php echo ($vo["id"]); ?>"><i class="icon-pencil"></i></a></td>
+          <td><a href="/admin.php/Home/NewsManage/del/id/<?php echo ($vo["id"]); ?>" onclick="return confirm('确定删除当前数据？')" role="button" ><i class="icon-remove"></td>
         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
       </tbody>
     </table>
@@ -175,19 +173,6 @@
     </ul>
 </div>
 
-<div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel">Delete Confirmation</h3>
-    </div>
-    <div class="modal-body">
-        <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
-    </div>
-    <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
-        <button class="btn btn-danger" data-dismiss="modal">Delete</button>
-    </div>
-</div>
 
                     <footer>
                         <hr>
@@ -202,13 +187,6 @@
     
 
 
-    <script src="/Public/Admin/lib/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript">
-        $("[rel=tooltip]").tooltip();
-        $(function() {
-            $('.demo-cancel-click').click(function(){return false;});
-        });
-    </script>
-    
+    <script src="/Public/Admin/lib/bootstrap/js/bootstrap.js"></script>    
   </body>
 </html>

@@ -16,4 +16,11 @@ class NewsManageController extends CommonController {
 		$this->assign('page',$show);
 		$this->display();
     }
+
+    public function del($id)
+    {
+		$News=M("News");
+		$News->where("id=$id")->delete();
+		$this->success("文章删除成功！",'../../');
+	}
 }
