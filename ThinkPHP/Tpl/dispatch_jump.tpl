@@ -22,10 +22,10 @@ body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16p
 <body>
 <div class="system-message">
 <?php if(isset($message)) {?>
-<h1>:)</h1>
+<h1>╮(╯▽╰)╭</h1>
 <p class="success"><?php echo($message); ?></p>
 <?php }else{?>
-<h1>:(</h1>
+<h1>o(╯□╰)o</h1>
 <p class="error"><?php echo($error); ?></p>
 <?php }?>
 <p class="detail"></p>

@@ -160,7 +160,7 @@
       <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
           <td><?php echo ($vo["id"]); ?></td>
           <td><a href="/index.php/home/index/body/id/<?php echo ($vo["id"]); ?>" target="_blank"><?php echo ($vo["newstitle"]); ?></a></td>
-          <td><a href="/admin.php/Home/NewsEdit/id/<?php echo ($vo["id"]); ?>"><i class="icon-pencil"></i></a></td>
+          <td><a href="/admin.php/Home/NewsEdit/index/id/<?php echo ($vo["id"]); ?>"><i class="icon-pencil"></i></a></td>
           <td><a href="/admin.php/Home/NewsManage/del/id/<?php echo ($vo["id"]); ?>" onclick="return confirm('确定删除当前数据？')" role="button" ><i class="icon-remove"></td>
         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
       </tbody>

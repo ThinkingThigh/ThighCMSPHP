@@ -14,10 +14,8 @@ class NewsAddController extends CommonController {
 			$news->Keywords = I('post.Keywords');
 			$news->Description = I('post.Description');
 			$news->Source = I('post.Source');
-			$news->NewsClass1ID = I('post.NewsClass1ID');
-			$news->NewsClass1Name = I('post.NewsClass1Name');
-			$news->NewsClass2ID = I('post.NewsClass2ID');
-			$news->NewsClass2Name = I('post.NewsClass2Name');
+			$news->NewsClass1 = I('post.NewsClass1');
+			$news->NewsClass2 = I('post.NewsClass2');
 			$news->Istop = I('post.Istop');
 			$news->NewsContent = $_POST['NewsContent'];
 			$news->PvCount = 1;

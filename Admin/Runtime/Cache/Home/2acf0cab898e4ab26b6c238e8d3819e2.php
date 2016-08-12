@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>文章添加</title>
+    <title>文章编辑</title>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -126,17 +126,17 @@
         -->
     </div>
 
-    <form id="tab" name="form1" method="post" action="/admin.php/Home/NewsAdd/Add">  
+    <form id="tab" name="form1" method="post" action="/admin.php/Home/NewsEdit/Edit/id/<?php echo ($id); ?>">  
     <div class="content">
         
         <div class="header">
             
-            <h1 class="page-title">文章添加</h1>
+            <h1 class="page-title">文章编辑</h1>
         </div>
         
                 <ul class="breadcrumb">
             <li><a href="index.html">首页</a> <span class="divider">/</span></li>            <li><a href="NewsManage">文章管理</a> <span class="divider">/</span></li>
-            <li class="active">文章添加</li>
+            <li class="active">文章编辑</li>
         </ul>
 
         <div class="container-fluid">
@@ -156,7 +156,8 @@
     <div id="myTabContent" class="tab-content">
       <div class="tab-pane active in" id="home">
     
-      <script id="container" name="NewsContent" type="text/plain"></script>
+    <!-- 配置文件 -->
+      <script id="container" name="NewsContent" type="text/plain"><?php echo ($NewsContent); ?></script>
     <!-- 配置文件 -->
     <script type="text/javascript" src="/Public/bdeditor/ueditor.config.js"></script>
     <!-- 编辑器源码文件 -->
@@ -164,32 +165,34 @@
     <!-- 实例化编辑器 -->
     <script type="text/javascript">
     window.UEDITOR_CONFIG.initialFrameHeight=480;
-    window.UEDITOR_CONFIG.imagePathFormat="/admin.php/Home/NewsAdd/bdupload/{yyyy}{mm}{dd}/{time}{rand:6}";
+    window.UEDITOR_CONFIG.imagePathFormat="/admin.php/Home/NewsEdit/bdupload/{yyyy}{mm}{dd}/{time}{rand:6}";
         var ue = UE.getEditor('container');
     </script> 
       </div>
       <div class="tab-pane fade" id="profile">
         <label>标题</label>
-        <input type="text" name="NewsTitle" class="input-xxlarge">
+        <input type="text" name="NewsTitle" value="<?php echo ($NewsTitle); ?>" class="input-xxlarge">
         <label>关键词</label>
-        <input type="text" name="Keywords" class="input-xxlarge">
+        <input type="text" name="Keywords" value="<?php echo ($Keywords); ?>" class="input-xxlarge">
         <label>页面描述</label>
-        <textarea rows="3" name="Description" class="input-xxlarge"></textarea>
+        <textarea rows="3" name="Description" class="input-xxlarge"><?php echo ($Description); ?></textarea>
         <label>来源</label>
-        <input type="text" name="Source" class="input-xxlarge">
+        <input type="text" name="Source" value="<?php echo ($Source); ?>" class="input-xxlarge">
         <label>分类</label>
         <select name="NewsClass1" class="input-xlarge">
+          <option value="<?php echo ($NewsClass1); ?>" selected ><?php echo ($NewsClass1); ?></option>
           <option value="无分类">无分类</option>
           <option value="一级分类1">一级分类1</option>
           <option value="一级分类2">一级分类2</option>
     </select>
     <select name="NewsClass2" class="input-xlarge">
+          <option value="<?php echo ($NewsClass2); ?>" selected ><?php echo ($NewsClass2); ?></option>
           <option value="无分类">无分类</option>
           <option value="二级分类1">二级分类1</option>
           <option value="二级分类2">二级分类2</option>
     </select>
     <label>排序</label>
-        <input type="text" name="Istop" class="input-xxlarge" >
+        <input type="text" name="Istop" value="<?php echo ($Istop); ?>" class="input-xxlarge" >
       </div>
   </div>
 

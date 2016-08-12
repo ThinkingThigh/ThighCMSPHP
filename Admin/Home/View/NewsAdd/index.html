@@ -113,15 +113,15 @@
         <label>来源</label>
         <input type="text" name="Source" class="input-xxlarge">
         <label>分类</label>
-        <select name="NewsClass1" id="NewsClass1" class="input-xlarge">
-          <option value="0">请选择</option>
-          <option value="1">一级分类1</option>
-          <option value="2">一级分类2</option>
+        <select name="NewsClass1" class="input-xlarge">
+          <option value="无分类">无分类</option>
+          <option value="一级分类1">一级分类1</option>
+          <option value="一级分类2">一级分类2</option>
     </select>
-    <select name="NewsClass2" id="NewsClass2" class="input-xlarge">
-          <option value="0">请选择</option>
-          <option value="1">二级分类1</option>
-          <option value="2">二级分类2</option>
+    <select name="NewsClass2" class="input-xlarge">
+          <option value="无分类">无分类</option>
+          <option value="二级分类1">二级分类1</option>
+          <option value="二级分类2">二级分类2</option>
     </select>
     <label>排序</label>
         <input type="text" name="Istop" class="input-xxlarge" >
@@ -132,23 +132,6 @@
 
 <input id="btnSubmit" type="submit" value="提交" class="btn btn-primary">
 
-<div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Delete Confirmation</h3>
-  </div>
-  <div class="modal-body">
-    
-    <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
-  </div>
-  <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
-    <button class="btn btn-danger" data-dismiss="modal">Delete</button>
-  </div>
-</div>
-
-
-                    
                     <include file="Public/footer" />
                     
             </div>
@@ -158,12 +141,6 @@
 
 
     <script src="__PUBLIC__/Admin/lib/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript">
-        $("[rel=tooltip]").tooltip();
-        $(function() {
-            $('.demo-cancel-click').click(function(){return false;});
-        });
-    </script>
     
   </body>
 </html>
