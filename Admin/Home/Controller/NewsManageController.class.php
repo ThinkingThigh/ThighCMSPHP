@@ -14,6 +14,7 @@ class NewsManageController extends CommonController {
 		$data=$News->field("ID,NewsTitle,CreateDate")->order('ID desc')->limit($Page->firstRow.','.$Page->listRows)->select();
 		$this->assign("data",$data);
 		$this->assign('page',$show);
+		
 		$this->display();
     }
 
