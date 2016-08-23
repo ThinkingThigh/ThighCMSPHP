@@ -1,0 +1,10 @@
+[ 2016-08-17T13:46:17+08:00 ] 172.168.2.54 /index.php/Home/NewsDetail/index/id/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-17T14:47:45+08:00 ] 172.168.2.54 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>文章管理</title>
+    <title>文章添加</title>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -13,7 +13,10 @@
     <link rel="stylesheet" type="text/css" href="/Public/Admin/stylesheets/theme.css">
     <link rel="stylesheet" href="/Public/Admin/lib/font-awesome/css/font-awesome.css">
 
-    <script src="/Public/Admin/lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="/Public/Admin/lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+
+    <script src="/Public/Admin/lib/bootstrapvalidator/js/bootstrapValidator.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/lib/bootstrapvalidator/css/bootstrapValidator.min.css">
 
     <!-- Demo page code -->
 
@@ -55,7 +58,6 @@
   <!--[if (gt IE 9)|!(IE)]><!--> 
   <body class=""> 
   <!--<![endif]-->
-    
         <div class="navbar">
         <div class="navbar-inner">
                 <ul class="nav pull-right">
@@ -126,55 +128,57 @@
         -->
     </div>
 
-
-    
+    <form id="tab" name="form1" method="post" action="/admin.php/Home/ADAdd/Add" enctype="multipart/form-data" >  
     <div class="content">
         
         <div class="header">
             
-            <h1 class="page-title">文章管理</h1>
+            <h1 class="page-title">广告添加</h1>
         </div>
         
                 <ul class="breadcrumb">
-            <li><a href="index.html">首页</a> <span class="divider">/</span></li>
-            <li class="active">文章管理</li>
+            <li><a href="index.html">首页</a> <span class="divider">/</span></li>            <li><a href="ADManage">广告管理</a> <span class="divider">/</span></li>
+            <li class="active">广告添加</li>
         </ul>
 
         <div class="container-fluid">
             <div class="row-fluid">
-                    
+                  
 <div class="btn-toolbar">
-    <a href="/admin.php/Home/NewsAdd" class="btn btn-primary"><i class="icon-plus"></i> 添加文章</a>
+  
+    <!--<a href="#myModal" data-toggle="modal" class="btn">Delete</a>-->
   <div class="btn-group">
   </div>
 </div>
 <div class="well">
-    <table class="table">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>标题</th>
-          <th>修改</th>
-          <th>删除</th>
-        </tr>
-      </thead>
-      <tbody>
-      <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-          <td><?php echo ($vo["id"]); ?></td>
-          <td><a href="/index.php/Home/NewsDetail/index/id/<?php echo ($vo["id"]); ?>" target="_blank"><?php echo ($vo["newstitle"]); ?></a></td>
-          <td><a href="/admin.php/Home/NewsEdit/index/id/<?php echo ($vo["id"]); ?>"><i class="icon-pencil"></i></a></td>
-          <td><a href="/admin.php/Home/NewsManage/del/id/<?php echo ($vo["id"]); ?>" onclick="return confirm('确定删除当前数据？')" role="button" ><i class="icon-remove"></td>
-        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-      </tbody>
-    </table>
-</div>
-<div class="pagination">
-  
-    <ul>
-    <?php echo ($page); ?>
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#home" data-toggle="tab">内容编辑</a></li>
     </ul>
+    <div id="myTabContent" class="tab-content">
+      <div class="tab-pane active in" id="home">
+      <label>标题</label>
+        <input type="text" name="Title" class="input-xxlarge">
+        <label>分类</label>
+        <select name="Type" class="input-xlarge">
+          <option value="无分类">无分类</option>
+          <option value="广告1">广告1</option>
+          <option value="广告2">广告2</option>
+    </select>
+      <label>上传图片</label>
+      <input type="file" name="adfile" ><br/>
+        <img src="/<?php echo ($adfile); ?>" width="600"/>
+        <label>链接地址</label>
+        <input type="text" name="LinkUrl" class="input-xxlarge">
+        <label>置顶排序</label>
+        <input type="text" name="Istop" value="1" class="input-xxlarge">
+        <label>显示状态</label>
+        <input type="text" name="Isshow" value="1" class="input-xxlarge">
+        
+  </div>
+
 </div>
 
+<input id="btnSubmit" type="submit" value="提交" class="btn btn-primary">
 
                     <footer>
                         <hr>
@@ -186,9 +190,10 @@
             </div>
         </div>
     </div>
+     </form>
+
+
+    <script src="/Public/Admin/lib/bootstrap/js/bootstrap.js"></script>
     
-
-
-    <script src="/Public/Admin/lib/bootstrap/js/bootstrap.js"></script>    
   </body>
 </html>

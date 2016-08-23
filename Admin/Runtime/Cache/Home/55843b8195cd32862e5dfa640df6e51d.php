@@ -90,6 +90,8 @@
             <li><a href="/admin.php/Home/">首页</a></li>
             <li ><a href="/admin.php/Home/NewsManage">文章管理</a></li>
             <li ><a href="/admin.php/Home/NewsAdd">文章添加</a></li>
+            <li ><a href="/admin.php/Home/ADManage">广告管理</a></li>
+            <li ><a href="/admin.php/Home/ADAdd">广告添加</a></li>
             <!--
             <li ><a href="media.html">Media</a></li>
             <li ><a href="calendar.html">Calendar</a></li>

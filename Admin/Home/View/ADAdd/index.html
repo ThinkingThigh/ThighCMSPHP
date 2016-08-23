@@ -61,17 +61,17 @@
     <include file="Public/header" />
 
     <include file="Public/sidebar" />
-    <form id="tab" name="form1" method="post" action="__URL__/Add">  
+    <form id="tab" name="form1" method="post" action="__URL__/Add" enctype="multipart/form-data" >  
     <div class="content">
         
         <div class="header">
             
-            <h1 class="page-title">文章添加</h1>
+            <h1 class="page-title">广告添加</h1>
         </div>
         
                 <ul class="breadcrumb">
-            <li><a href="index.html">首页</a> <span class="divider">/</span></li>            <li><a href="NewsManage">文章管理</a> <span class="divider">/</span></li>
-            <li class="active">文章添加</li>
+            <li><a href="index.html">首页</a> <span class="divider">/</span></li>            <li><a href="ADManage">广告管理</a> <span class="divider">/</span></li>
+            <li class="active">广告添加</li>
         </ul>
 
         <div class="container-fluid">
@@ -86,46 +86,27 @@
 <div class="well">
     <ul class="nav nav-tabs">
       <li class="active"><a href="#home" data-toggle="tab">内容编辑</a></li>
-      <li><a href="#profile" data-toggle="tab">文章信息</a></li>
     </ul>
     <div id="myTabContent" class="tab-content">
       <div class="tab-pane active in" id="home">
-        <textarea id="container" name="NewsContent"></textarea>
-      
-    <!-- 配置文件 -->
-    <script type="text/javascript" src="__PUBLIC__/bdeditor/ueditor.config.js"></script>
-    <!-- 编辑器源码文件 -->
-    <script type="text/javascript" src="__PUBLIC__/bdeditor/ueditor.all.js"></script>
-    <!-- 实例化编辑器 -->
-    <script type="text/javascript">
-    window.UEDITOR_CONFIG.initialFrameHeight=480;
-    window.UEDITOR_CONFIG.imagePathFormat="__URL__/bdupload/{yyyy}{mm}{dd}/{time}{rand:6}";
-        var ue = UE.getEditor('container');
-    </script> 
-      </div>
-      <div class="tab-pane fade" id="profile">
-        <label>标题</label>
-        <input type="text" name="NewsTitle" class="input-xxlarge">
-        <label>关键词</label>
-        <input type="text" name="Keywords" class="input-xxlarge">
-        <label>页面描述</label>
-        <textarea rows="3" name="Description" class="input-xxlarge"></textarea>
-        <label>来源</label>
-        <input type="text" name="Source" class="input-xxlarge">
+      <label>标题</label>
+        <input type="text" name="Title" class="input-xxlarge">
         <label>分类</label>
-        <select name="NewsClass1" class="input-xlarge">
+        <select name="Type" class="input-xlarge">
           <option value="无分类">无分类</option>
-          <option value="一级分类1">一级分类1</option>
-          <option value="一级分类2">一级分类2</option>
+          <option value="广告1">广告1</option>
+          <option value="广告2">广告2</option>
     </select>
-    <select name="NewsClass2" class="input-xlarge">
-          <option value="无分类">无分类</option>
-          <option value="二级分类1">二级分类1</option>
-          <option value="二级分类2">二级分类2</option>
-    </select>
-    <label>排序</label>
-        <input type="text" name="Istop" class="input-xxlarge" >
-      </div>
+      <label>上传图片</label>
+      <input type="file" name="adfile" ><br/>
+        <img src="__ROOT__/{$adfile}" width="600"/>
+        <label>链接地址</label>
+        <input type="text" name="LinkUrl" class="input-xxlarge">
+        <label>置顶排序</label>
+        <input type="text" name="Istop" value="1" class="input-xxlarge">
+        <label>显示状态</label>
+        <input type="text" name="Isshow" value="1" class="input-xxlarge">
+        
   </div>
 
 </div>
