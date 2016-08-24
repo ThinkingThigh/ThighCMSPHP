@@ -61,17 +61,17 @@
     <include file="Public/header" />
 
     <include file="Public/sidebar" />
-    <form id="tab" name="form1" method="post" action="__URL__/Add" enctype="multipart/form-data" >  
+    <form id="tab" name="form1" method="post" action="__URL__/Edit" enctype="multipart/form-data" >  
     <div class="content">
         
         <div class="header">
             
-            <h1 class="page-title">广告添加</h1>
+            <h1 class="page-title">广告编辑</h1>
         </div>
         
                 <ul class="breadcrumb">
             <li><a href="index.html">首页</a> <span class="divider">/</span></li>            <li><a href="ADManage">广告管理</a> <span class="divider">/</span></li>
-            <li class="active">广告添加</li>
+            <li class="active">广告编辑</li>
         </ul>
 
         <div class="container-fluid">
@@ -99,6 +99,7 @@
     </select>
       <label>上传图片</label>
       <input type="file" name="adfile" ><br/>
+        <img src="__ROOT__/{$adfile}" width="600"/>
         <label>链接地址</label>
         <input type="text" name="LinkUrl" class="input-xxlarge">
         <label>置顶排序</label>

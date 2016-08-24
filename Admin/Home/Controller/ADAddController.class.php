@@ -32,7 +32,7 @@ class ADAddController extends CommonController {
 			{
 				foreach($info as $file)
 				{
-					$AD->PicUrl='./Uploads/'.$file['savepath'].$file['savename'];
+					$AD->PicUrl='/Uploads/'.$file['savepath'].$file['savename'];
 				}
 				
 				if($AD->add())
