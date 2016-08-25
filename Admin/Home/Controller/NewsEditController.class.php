@@ -14,7 +14,7 @@ class NewsEditController extends CommonController {
         $this->assign('NewsClass2',$data['newsclass2']);
         $this->assign('Istop',$data['istop']);
         $this->assign('NewsContent',$data['newscontent']);
-        $this->assign('PvCount',$data['pvcount']);
+        $this->assign('PvCou nt',$data['pvcount']);
         $this->assign('CreateAdmin',$data['createadmin']);
         $this->display();
     }

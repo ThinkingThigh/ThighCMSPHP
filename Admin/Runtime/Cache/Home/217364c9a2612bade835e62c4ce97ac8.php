@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>广告添加</title>
+    <title>广告编辑</title>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -128,17 +128,17 @@
         -->
     </div>
 
-    <form id="tab" name="form1" method="post" action="/admin.php/Home/ADAdd/Add" enctype="multipart/form-data" >  
+    <form id="tab" name="form1" method="post" action="/admin.php/Home/ADEdit/Edit/id/<?php echo ($id); ?>" enctype="multipart/form-data" >  
     <div class="content">
         
         <div class="header">
             
-            <h1 class="page-title">广告添加</h1>
+            <h1 class="page-title">广告编辑</h1>
         </div>
         
                 <ul class="breadcrumb">
             <li><a href="index.html">首页</a> <span class="divider">/</span></li>            <li><a href="ADManage">广告管理</a> <span class="divider">/</span></li>
-            <li class="active">广告添加</li>
+            <li class="active">广告编辑</li>
         </ul>
 
         <div class="container-fluid">
@@ -152,26 +152,28 @@
 </div>
 <div class="well">
     <ul class="nav nav-tabs">
-      <li class="active"><a href="#home" data-toggle="tab">内容编辑</a></li>
+      <li class="active"><a href="#home" data-toggle="tab">广告编辑</a></li>
     </ul>
     <div id="myTabContent" class="tab-content">
       <div class="tab-pane active in" id="home">
       <label>标题</label>
-        <input type="text" name="Title" class="input-xxlarge">
+        <input type="text" name="Title" class="input-xxlarge" value="<?php echo ($Title); ?>">
         <label>分类</label>
         <select name="Type" class="input-xlarge">
+          <option value="<?php echo ($Type); ?>" selected ><?php echo ($Type); ?></option>
           <option value="无分类">无分类</option>
           <option value="广告1">广告1</option>
           <option value="广告2">广告2</option>
     </select>
       <label>上传图片</label>
       <input type="file" name="adfile" ><br/>
+        <img src="<?php echo ($PicUrl); ?>" width="600"/>
         <label>链接地址</label>
-        <input type="text" name="LinkUrl" class="input-xxlarge">
+        <input type="text" name="LinkUrl" class="input-xxlarge" value="<?php echo ($LinkUrl); ?>">
         <label>置顶排序</label>
-        <input type="text" name="Istop" value="1" class="input-xxlarge">
+        <input type="text" name="Istop" value="<?php echo ($Istop); ?>" class="input-xxlarge">
         <label>显示状态</label>
-        <input type="text" name="Isshow" value="1" class="input-xxlarge">
+        <input type="text" name="Isshow" value="<?php echo ($Isshow); ?>" class="input-xxlarge">
         
   </div>
 
