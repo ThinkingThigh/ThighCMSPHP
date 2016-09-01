@@ -1,0 +1,640 @@
+[ 2016-08-30T10:08:50+08:00 ] 172.168.2.54 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:08:51+08:00 ] 172.168.2.54 /admin.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:08:52+08:00 ] 172.168.2.54 /admin.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:08:54+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:08:57+08:00 ] 172.168.2.54 /admin.php/Home/NewsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:08:58+08:00 ] 172.168.2.54 /admin.php/Home/ADManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:08:58+08:00 ] 172.168.2.54 /admin.php/Home/ADAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:08:59+08:00 ] 172.168.2.54 /admin.php/Home/ADManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:09:00+08:00 ] 172.168.2.54 /admin.php/Home/NewsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031250s ]
+
+[ 2016-08-30T10:09:01+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:09:01+08:00 ] 172.168.2.54 /admin.php/Home/ADAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:09:02+08:00 ] 172.168.2.54 /admin.php/Home/ADManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:09:04+08:00 ] 172.168.2.54 /admin.php/Home/ADEdit/index/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:09:04+08:00 ] 172.168.2.54 /admin.php/Home/ADEdit/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:09:06+08:00 ] 172.168.2.54 /admin.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:09:08+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:09:08+08:00 ] 172.168.2.54 /admin.php/Home/NewsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:09:10+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:09:11+08:00 ] 172.168.2.54 /admin.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:18:59+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:18:59+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:19:00+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:19:00+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:19:00+08:00 ] 172.168.2.54 /admin.php/Home/NewsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:19:01+08:00 ] 172.168.2.54 /admin.php/Home/NewsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:19:01+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-08-30T10:19:01+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:19:01+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:23:20+08:00 ] 172.168.2.54 /admin.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:23:20+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:23:21+08:00 ] 172.168.2.54 /admin.php/Home/NewsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:23:22+08:00 ] 172.168.2.54 /admin.php/Home/ADManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:23:23+08:00 ] 172.168.2.54 /admin.php/Home/ADAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T10:23:27+08:00 ] 172.168.2.54 /admin.php/Home/ADAdd/Add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:06:17+08:00 ] 172.168.2.54 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:06:19+08:00 ] 172.168.2.54 /admin.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:06:20+08:00 ] 172.168.2.54 /admin.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:06:21+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:08:08+08:00 ] 172.168.2.54 /admin.php/Home/login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:08:09+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:08:11+08:00 ] 172.168.2.54 /admin.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:08:12+08:00 ] 172.168.2.54 /admin.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:08:44+08:00 ] 172.168.2.54 /admin.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:08:45+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:08:46+08:00 ] 172.168.2.54 /admin.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:08:47+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:09:36+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:25:10+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:25:10+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:25:11+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:25:11+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:26:23+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:26:23+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:26:24+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:26:24+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:26:26+08:00 ] 172.168.2.54 /admin.php/Home/NewsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:26:28+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:28:53+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:28:53+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:28:54+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:28:54+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:28:54+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:28:54+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:28:54+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:28:55+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:28:55+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:28:55+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:16+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:16+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:16+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:16+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:17+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:17+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:21+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:21+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:21+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:21+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:22+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:22+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:23+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:29:23+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:30:18+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:30:19+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:30:37+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:30:37+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:30:38+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:30:38+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:27+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:27+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:34+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:35+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:35+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:36+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:36+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:36+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:36+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:36+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:36+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:38+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:38+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:39+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-08-30T14:38:39+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:41+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:41+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:42+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T14:38:42+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:11:54+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:11:54+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:11:54+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:11:54+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:12:44+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:12:44+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:12:45+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:12:45+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:12:46+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:12:46+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:12:47+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:12:47+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:13:02+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T15:13:02+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T17:26:10+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T17:26:10+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T17:26:11+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T17:26:11+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T17:26:11+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T17:26:11+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-30T17:26:14+08:00 ] 172.168.2.54 /admin.php/Home/NewsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-08-30T17:26:15+08:00 ] 172.168.2.54 /admin.php/Home/NewsManage/index/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

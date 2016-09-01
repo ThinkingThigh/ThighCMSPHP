@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>广告管理</title>
+    <title>文章编辑</title>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -13,7 +13,10 @@
     <link rel="stylesheet" type="text/css" href="/Public/Admin/stylesheets/theme.css">
     <link rel="stylesheet" href="/Public/Admin/lib/font-awesome/css/font-awesome.css">
 
-    <script src="/Public/Admin/lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="/Public/Admin/lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+
+    <script src="/Public/Admin/lib/bootstrapvalidator/js/bootstrapValidator.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/lib/bootstrapvalidator/css/bootstrapValidator.min.css">
 
     <!-- Demo page code -->
 
@@ -55,7 +58,6 @@
   <!--[if (gt IE 9)|!(IE)]><!--> 
   <body class=""> 
   <!--<![endif]-->
-    
         <div class="navbar">
         <div class="navbar-inner">
                 <ul class="nav pull-right">
@@ -126,57 +128,79 @@
         -->
     </div>
 
-
-    
+    <form id="tab" name="form1" method="post" action="/admin.php/Home/NewsEdit/Edit/id/<?php echo ($id); ?>">  
     <div class="content">
         
         <div class="header">
             
-            <h1 class="page-title">广告管理</h1>
+            <h1 class="page-title">文章编辑</h1>
         </div>
         
                 <ul class="breadcrumb">
-            <li><a href="index.html">首页</a> <span class="divider">/</span></li>
-            <li class="active">广告管理</li>
+            <li><a href="../../../index.html">首页</a> <span class="divider">/</span></li>            <li><a href="../../../NewsManage">文章管理</a> <span class="divider">/</span></li>
+            <li class="active">文章编辑</li>
         </ul>
 
         <div class="container-fluid">
             <div class="row-fluid">
-                    
+                  
 <div class="btn-toolbar">
-    <a href="/admin.php/Home/ADAdd" class="btn btn-primary"><i class="icon-plus"></i> 添加广告</a>
+  
+    <!--<a href="#myModal" data-toggle="modal" class="btn">Delete</a>-->
   <div class="btn-group">
   </div>
 </div>
 <div class="well">
-    <table class="table">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>标题</th>
-          <th>分类</th>
-          <th>修改</th>
-          <th>删除</th>
-        </tr>
-      </thead>
-      <tbody>
-      <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-          <td><?php echo ($vo["id"]); ?></td>
-          <td><a href="<?php echo ($vo["linkurl"]); ?>" target="_blank" title="<?php echo ($vo["title"]); ?>"><?php echo ($vo["title"]); ?></a></td>
-          <td><?php echo ($vo["type"]); ?></td>
-          <td><a href="/admin.php/Home/ADEdit/index/id/<?php echo ($vo["id"]); ?>"><i class="icon-pencil"></i></a></td>
-          <td><a href="/admin.php/Home/ADManage/del/id/<?php echo ($vo["id"]); ?>" onclick="return confirm('确定删除当前数据？')" role="button" ><i class="icon-remove"></td>
-        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-      </tbody>
-    </table>
-</div>
-<div class="pagination">
-  
-    <ul>
-    <?php echo ($page); ?>
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#home" data-toggle="tab">内容编辑</a></li>
+      <li><a href="#profile" data-toggle="tab">文章信息</a></li>
     </ul>
+    <div id="myTabContent" class="tab-content">
+      <div class="tab-pane active in" id="home">
+    
+    <!-- 配置文件 -->
+    <textarea id="container" name="NewsContent"><?php echo ($NewsContent); ?></textarea>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="/Public/bdeditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="/Public/bdeditor/ueditor.all.js"></script>
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+    window.UEDITOR_CONFIG.initialFrameHeight=480;
+    window.UEDITOR_CONFIG.imagePathFormat="/admin.php/Home/NewsEdit/bdupload/{yyyy}{mm}{dd}/{time}{rand:6}";
+        var ue = UE.getEditor('container');
+    </script> 
+      </div>
+      <div class="tab-pane fade" id="profile">
+        <label>标题</label>
+        <input type="text" name="NewsTitle" value="<?php echo ($NewsTitle); ?>" class="input-xxlarge">
+        <label>关键词</label>
+        <input type="text" name="Keywords" value="<?php echo ($Keywords); ?>" class="input-xxlarge">
+        <label>页面描述</label>
+        <textarea rows="3" name="Description" class="input-xxlarge"><?php echo ($Description); ?></textarea>
+        <label>来源</label>
+        <input type="text" name="Source" value="<?php echo ($Source); ?>" class="input-xxlarge">
+        <label>分类</label>
+        <select name="NewsClass1" class="input-xlarge">
+          <option value="<?php echo ($NewsClass1); ?>" selected ><?php echo ($NewsClass1); ?></option>
+          <option value="无分类">无分类</option>
+          <option value="一级分类1">一级分类1</option>
+          <option value="一级分类2">一级分类2</option>
+    </select>
+    <select name="NewsClass2" class="input-xlarge">
+          <option value="<?php echo ($NewsClass2); ?>" selected ><?php echo ($NewsClass2); ?></option>
+          <option value="无分类">无分类</option>
+          <option value="二级分类1">二级分类1</option>
+          <option value="二级分类2">二级分类2</option>
+    </select>
+    <label>排序</label>
+        <input type="text" name="Istop" value="<?php echo ($Istop); ?>" class="input-xxlarge" >
+      </div>
+  </div>
+
 </div>
 
+<input id="btnSubmit" type="submit" value="提交" class="btn btn-primary">
 
                     <footer>
                         <hr>
@@ -189,9 +213,10 @@
             </div>
         </div>
     </div>
+     </form>
+
+
+    <script src="/Public/Admin/lib/bootstrap/js/bootstrap.js"></script>
     
-
-
-    <script src="/Public/Admin/lib/bootstrap/js/bootstrap.js"></script>    
   </body>
 </html>

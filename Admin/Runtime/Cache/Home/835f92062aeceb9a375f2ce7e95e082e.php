@@ -127,7 +127,7 @@
     </div>
 
 
-    
+    <form action="/admin.php/Home/NewsManage" method="get">
     <div class="content">
         
         <div class="header">
@@ -144,8 +144,11 @@
             <div class="row-fluid">
                     
 <div class="btn-toolbar">
+    
+  <div class="form-inline">
+    <input class="input-xlarge" placeholder="请输入文章标题关键字..." id="appendedInputButton" name="search" type="text">
+    <button class="btn" type="submit"><i class="icon-search"></i> 搜索</button>
     <a href="/admin.php/Home/NewsAdd" class="btn btn-primary"><i class="icon-plus"></i> 添加文章</a>
-  <div class="btn-group">
   </div>
 </div>
 <div class="well">
@@ -183,11 +186,12 @@
                         <p>&copy; 2016 <a href="#" target="_blank">ThinkingThigh</a></p>
                     </footer>
                     
+                    
             </div>
         </div>
     </div>
     
-
+</form>
 
     <script src="/Public/Admin/lib/bootstrap/js/bootstrap.js"></script>    
   </body>
